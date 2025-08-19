@@ -1,0 +1,10 @@
+{
+	"name": "form-designer",
+	"version": "1.0.10",
+	"author": "LSP",
+	"private": false,
+	"main": "dist/designer.umd.js",
+	"description": "Form Designer",
+	"homepage": "https://#",
+	"keywords": []
+}
