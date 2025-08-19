@@ -45269,7 +45269,7 @@ var extLanguage_tools = { exports: {} };
     });
   })();
 })(extLanguage_tools);
-const VARIANT_FORM_VERSION = "1.0.12";
+const VARIANT_FORM_VERSION = "1.0.13";
 const MOCK_CASE_URL = "https://ks3-cn-beijing.ksyuncs.com/vform-static/vcase/";
 const ACE_BASE_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/ace-mini";
 const BEAUTIFIER_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/js-beautify/1.14.0/beautifier.min.js";
@@ -56035,7 +56035,6 @@ function createDesigner(vueInstance) {
     initDesigner(resetFormJson) {
       this.widgetList = [];
       this.formConfig = deepClone(defaultFormConfig);
-      console.info(`%cVariantForm %cVer${VARIANT_FORM_VERSION} %chttps://www.yuque.com/visualdev/vform3`, "color:#409EFF;font-size: 22px;font-weight:bolder", "color:#999;font-size: 12px", "color:#333");
       if (!resetFormJson) {
         this.initHistoryData();
       }
@@ -56844,10 +56843,6 @@ const _sfc_main$c = {
       curLocale: "",
       vsCodeFlag: false,
       caseName: "",
-      docUrl: "https://#/document3.html",
-      gitUrl: "https://github.com/vform666/variant-form3-vite",
-      chatUrl: "https://#/pages/chat-group/",
-      subScribeUrl: "https://#/pages/pro/",
       scrollerHeight: 0,
       designer: createDesigner(this),
       fieldList: []
@@ -57061,7 +57056,7 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
           createElementVNode("div", _hoisted_2$a, [
             $options.showLink("languageMenu") ? (openBlock(), createBlock(_component_el_dropdown, {
               key: 0,
-              "hide-timeout": 2e3,
+              "hide-timeout": 1e3,
               onCommand: $options.handleLanguageChanged
             }, {
               dropdown: withCtx(() => [
@@ -57165,7 +57160,7 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
     _: 3
   });
 }
-var VFormDesigner = /* @__PURE__ */ _export_sfc$1(_sfc_main$c, [["render", _sfc_render$c], ["__scopeId", "data-v-65e8093a"]]);
+var VFormDesigner = /* @__PURE__ */ _export_sfc$1(_sfc_main$c, [["render", _sfc_render$c], ["__scopeId", "data-v-6564bbde"]]);
 var vuedraggable_umd = { exports: {} };
 /**!
  * Sortable 1.14.0
@@ -63089,13 +63084,13 @@ function registerIcon(app) {
 if (typeof window !== "undefined") {
   let loadSvg = function() {
     var body = document.body;
-    var svgDom = document.getElementById("__svg__icons__dom__1755594845924__");
+    var svgDom = document.getElementById("__svg__icons__dom__1755596555648__");
     if (!svgDom) {
       svgDom = document.createElementNS("http://www.w3.org/2000/svg", "svg");
       svgDom.style.position = "absolute";
       svgDom.style.width = "0";
       svgDom.style.height = "0";
-      svgDom.id = "__svg__icons__dom__1755594845924__";
+      svgDom.id = "__svg__icons__dom__1755596555648__";
       svgDom.setAttribute("xmlns", "http://www.w3.org/2000/svg");
       svgDom.setAttribute("xmlns:link", "http://www.w3.org/1999/xlink");
     }
