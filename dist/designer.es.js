@@ -3790,7 +3790,7 @@ const _sfc_main$38 = {
 const _hoisted_1$E = { class: "panel-container" };
 const _hoisted_2$q = ["title", "onDblclick"];
 const _hoisted_3$m = ["title", "onDblclick"];
-const _hoisted_4$f = ["title", "onDblclick"];
+const _hoisted_4$e = ["title", "onDblclick"];
 const _hoisted_5$c = ["title", "onDblclick"];
 const _hoisted_6$b = ["src"];
 const _hoisted_7$8 = ["src"];
@@ -3932,7 +3932,7 @@ function _sfc_render$38(_ctx, _cache, $props, $setup, $data, $options) {
                                 }, null, 8, ["icon-class"]),
                                 createTextVNode(toDisplayString(_ctx.i18n2t(`designer.widgetLabel.${fld.type}`, `extension.widgetLabel.${fld.type}`)), 1)
                               ])
-                            ], 40, _hoisted_4$f)
+                            ], 40, _hoisted_4$e)
                           ]),
                           _: 1
                         }, 8, ["list", "move", "clone"])
@@ -4260,7 +4260,7 @@ const _hoisted_1$D = {
 };
 const _hoisted_2$p = ["title"];
 const _hoisted_3$l = ["title"];
-const _hoisted_4$e = ["title"];
+const _hoisted_4$d = ["title"];
 const _hoisted_5$b = ["title"];
 const _hoisted_6$a = {
   key: 1,
@@ -4303,7 +4303,7 @@ function _sfc_render$36(_ctx, _cache, $props, $setup, $data, $options) {
           onClick: _cache[3] || (_cache[3] = withModifiers(($event) => $options.moveDownWidget($props.field), ["stop"]))
         }, [
           createVNode(_component_svg_icon, { "icon-class": "el-move-down" })
-        ], 8, _hoisted_4$e)) : createCommentVNode("", true),
+        ], 8, _hoisted_4$d)) : createCommentVNode("", true),
         createElementVNode("i", {
           title: _ctx.i18nt("designer.hint.remove"),
           onClick: _cache[4] || (_cache[4] = withModifiers((...args) => $options.removeFieldWidget && $options.removeFieldWidget(...args), ["stop"]))
@@ -5112,7 +5112,7 @@ const _hoisted_2$o = {
   class: "field-action"
 };
 const _hoisted_3$k = ["title"];
-const _hoisted_4$d = ["title"];
+const _hoisted_4$c = ["title"];
 const _hoisted_5$a = ["title"];
 const _hoisted_6$9 = ["title"];
 const _hoisted_7$6 = {
@@ -5202,7 +5202,7 @@ function _sfc_render$34(_ctx, _cache, $props, $setup, $data, $options) {
           onClick: _cache[2] || (_cache[2] = withModifiers(($event) => $options.moveUpWidget($props.field), ["stop"]))
         }, [
           createVNode(_component_svg_icon, { "icon-class": "el-move-up" })
-        ], 8, _hoisted_4$d)) : createCommentVNode("", true),
+        ], 8, _hoisted_4$c)) : createCommentVNode("", true),
         !!$props.parentList && $props.parentList.length > 1 ? (openBlock(), createElementBlock("i", {
           key: 1,
           title: _ctx.i18nt("designer.hint.moveDownWidget"),
@@ -6041,7 +6041,7 @@ const _hoisted_1$A = {
 };
 const _hoisted_2$n = { class: "upload-file-list" };
 const _hoisted_3$j = ["title"];
-const _hoisted_4$c = ["href"];
+const _hoisted_4$b = ["href"];
 const _hoisted_5$9 = ["title"];
 const _hoisted_6$8 = ["title", "onClick"];
 function _sfc_render$2Z(_ctx, _cache, $props, $setup, $data, $options) {
@@ -6103,7 +6103,7 @@ function _sfc_render$2Z(_ctx, _cache, $props, $setup, $data, $options) {
               }, [
                 createVNode(_component_svg_icon, { "icon-class": "el-download" })
               ], 8, _hoisted_5$9)
-            ], 8, _hoisted_4$c),
+            ], 8, _hoisted_4$b),
             !$props.field.options.disabled ? (openBlock(), createElementBlock("span", {
               key: 0,
               class: "file-action",
@@ -6631,7 +6631,7 @@ const _hoisted_2$m = {
   style: { "color": "#FFF" }
 };
 const _hoisted_3$i = { class: "el-upload-list__item-actions" };
-const _hoisted_4$b = ["onClick"];
+const _hoisted_4$a = ["onClick"];
 const _hoisted_5$8 = ["onClick"];
 const _hoisted_6$7 = {
   key: 0,
@@ -6699,7 +6699,7 @@ function _sfc_render$2V(_ctx, _cache, $props, $setup, $data, $options) {
               onClick: ($event) => $options.handlePictureCardPreview(file)
             }, [
               createVNode(_component_svg_icon, { "icon-class": "el-zoom-in" })
-            ], 8, _hoisted_4$b),
+            ], 8, _hoisted_4$a),
             createElementVNode("span", {
               class: "el-upload-list__item-delete",
               onClick: ($event) => $options.handlePictureRemove(file)
@@ -19852,7 +19852,7 @@ const _hoisted_3$h = {
   key: 0,
   class: "custom-label"
 };
-const _hoisted_4$a = ["title"];
+const _hoisted_4$9 = ["title"];
 const _hoisted_5$7 = { class: "sub-form-action-column hide-label" };
 const _hoisted_6$6 = { class: "action-button-column" };
 const _hoisted_7$4 = {
@@ -19942,7 +19942,7 @@ function _sfc_render$2G(_ctx, _cache, $props, $setup, $data, $options) {
                 ])) : (openBlock(), createElementBlock("span", {
                   key: 1,
                   title: subWidget.options.labelTooltip
-                }, toDisplayString(subWidget.options.label), 9, _hoisted_4$a))
+                }, toDisplayString(subWidget.options.label), 9, _hoisted_4$9))
               ], 6);
             }), 128))
           ]),
@@ -45269,7 +45269,7 @@ var extLanguage_tools = { exports: {} };
     });
   })();
 })(extLanguage_tools);
-const VARIANT_FORM_VERSION = "3.0.10";
+const VARIANT_FORM_VERSION = "1.0.12";
 const MOCK_CASE_URL = "https://ks3-cn-beijing.ksyuncs.com/vform-static/vcase/";
 const ACE_BASE_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/ace-mini";
 const BEAUTIFIER_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/js-beautify/1.14.0/beautifier.min.js";
@@ -46794,7 +46794,7 @@ const _sfc_main$2A = {
 const _hoisted_1$r = { class: "toolbar-container" };
 const _hoisted_2$i = { class: "left-toolbar" };
 const _hoisted_3$g = { class: "right-toolbar-con" };
-const _hoisted_4$9 = {
+const _hoisted_4$8 = {
   key: 0,
   class: ""
 };
@@ -47010,7 +47010,7 @@ function _sfc_render$2A(_ctx, _cache, $props, $setup, $data, $options) {
         }), 256))
       ])
     ], 4),
-    $data.showPreviewDialogFlag ? withDirectives((openBlock(), createElementBlock("div", _hoisted_4$9, [
+    $data.showPreviewDialogFlag ? withDirectives((openBlock(), createElementBlock("div", _hoisted_4$8, [
       createVNode(_component_el_dialog, {
         title: _ctx.i18nt("designer.toolbar.preview"),
         modelValue: $data.showPreviewDialogFlag,
@@ -48988,7 +48988,7 @@ const _hoisted_2$h = {
   class: "full-width-input"
 };
 const _hoisted_3$f = { key: 3 };
-const _hoisted_4$8 = { key: 4 };
+const _hoisted_4$7 = { key: 4 };
 const _hoisted_5$5 = {
   key: 5,
   class: ""
@@ -49144,7 +49144,7 @@ function _sfc_render$20(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
       }, 8, ["onClick"])
     ])) : createCommentVNode("", true),
-    $props.selectedWidget.type === "radio" || $props.selectedWidget.type === "checkbox" || $props.selectedWidget.type === "select" ? (openBlock(), createElementBlock("div", _hoisted_4$8, [
+    $props.selectedWidget.type === "radio" || $props.selectedWidget.type === "checkbox" || $props.selectedWidget.type === "select" ? (openBlock(), createElementBlock("div", _hoisted_4$7, [
       createVNode(_component_el_button, {
         link: "",
         type: "primary",
@@ -53563,7 +53563,7 @@ const _hoisted_3$e = {
   key: 1,
   class: ""
 };
-const _hoisted_4$7 = { class: "dialog-footer" };
+const _hoisted_4$6 = { class: "dialog-footer" };
 const _hoisted_5$4 = {
   key: 2,
   class: ""
@@ -53964,7 +53964,7 @@ function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
         "destroy-on-close": true
       }, {
         footer: withCtx(() => [
-          createElementVNode("div", _hoisted_4$7, [
+          createElementVNode("div", _hoisted_4$6, [
             createVNode(_component_el_button, {
               onClick: _cache[17] || (_cache[17] = ($event) => $data.showEditFormCssDialogFlag = false)
             }, {
@@ -54745,7 +54745,7 @@ const _hoisted_1$h = {
 };
 const _hoisted_2$e = ["title"];
 const _hoisted_3$d = ["title"];
-const _hoisted_4$6 = ["title"];
+const _hoisted_4$5 = ["title"];
 const _hoisted_5$3 = ["title"];
 const _hoisted_6$2 = ["title"];
 const _hoisted_7$1 = ["title"];
@@ -54782,7 +54782,7 @@ function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
         onClick: _cache[2] || (_cache[2] = withModifiers(($event) => _ctx.moveDownWidget(), ["stop"]))
       }, [
         createVNode(_component_svg_icon, { "icon-class": "el-move-down" })
-      ], 8, _hoisted_4$6)) : createCommentVNode("", true),
+      ], 8, _hoisted_4$5)) : createCommentVNode("", true),
       $props.widget.type === "table" ? (openBlock(), createElementBlock("i", {
         key: 2,
         title: _ctx.i18nt("designer.hint.insertRow"),
@@ -55043,7 +55043,7 @@ const _hoisted_2$d = {
   class: "grid-col-action"
 };
 const _hoisted_3$c = ["title"];
-const _hoisted_4$5 = ["title"];
+const _hoisted_4$4 = ["title"];
 const _hoisted_5$2 = ["title"];
 const _hoisted_6$1 = ["title"];
 const _hoisted_7 = ["title"];
@@ -55112,7 +55112,7 @@ function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
           onClick: _cache[3] || (_cache[3] = withModifiers(($event) => $options.moveUpWidget(), ["stop"]))
         }, [
           createVNode(_component_svg_icon, { "icon-class": "el-move-up" })
-        ], 8, _hoisted_4$5)) : createCommentVNode("", true),
+        ], 8, _hoisted_4$4)) : createCommentVNode("", true),
         !!$props.parentList && $props.parentList.length > 1 ? (openBlock(), createElementBlock("i", {
           key: 1,
           title: _ctx.i18nt("designer.hint.moveDownWidget"),
@@ -55520,7 +55520,7 @@ const _hoisted_3$b = {
   key: 0,
   class: "table-cell-action"
 };
-const _hoisted_4$4 = ["title"];
+const _hoisted_4$3 = ["title"];
 const _hoisted_5$1 = ["title"];
 const _hoisted_6 = {
   key: 1,
@@ -55579,7 +55579,7 @@ function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
         onClick: _cache[2] || (_cache[2] = withModifiers(($event) => $options.selectParentWidget(), ["stop"]))
       }, [
         createVNode(_component_svg_icon, { "icon-class": "el-back" })
-      ], 8, _hoisted_4$4),
+      ], 8, _hoisted_4$3),
       createVNode(_component_el_dropdown, {
         trigger: "click",
         onCommand: $options.handleTableCellCommand,
@@ -55961,7 +55961,7 @@ const _hoisted_2$b = {
   class: "no-widget-hint"
 };
 const _hoisted_3$a = { class: "form-widget-list" };
-const _hoisted_4$3 = { class: "transition-group-el" };
+const _hoisted_4$2 = { class: "transition-group-el" };
 function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_draggable = resolveComponent("draggable");
   const _component_el_form = resolveComponent("el-form");
@@ -55988,7 +55988,7 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
             move: $options.checkMove
           }), {
             item: withCtx(({ element: widget, index: index2 }) => [
-              createElementVNode("div", _hoisted_4$3, [
+              createElementVNode("div", _hoisted_4$2, [
                 widget.category === "container" ? (openBlock(), createBlock(resolveDynamicComponent($options.getWidgetName(widget)), {
                   widget,
                   designer: $props.designer,
@@ -56789,7 +56789,6 @@ function createDesigner(vueInstance) {
     }
   };
 }
-var _imports_0 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWdJREFUeNrsmjFuwjAUhp8jxJQBujQH4ABhYmaDU7Sdu/QIcIKKE0APwM7GEQgLU/dmo0N3178SI0Qx2KpQ8sJ7kpUojsn/2S/JrxeImhRa64lpe13fgLbJsWZVCu+Yzdq0lMlcZ0qpPnai8sAbI/GI1K6EXYG92XSYZfy3WYWuBdAc71kDoFquzo+MaLHx+6H1S9iYNCF6Hxf7w/n180c9otcBUdz+2xdxmOnVJ9Fyd74v4pIu2RdzAFcIgAAIgABUG62qBTz3/c57jGsK8JRKClVgC3I/E+cygPIUEgABEAABEIDGADjrQvlP0XzfkqFjQgMlld7DiXiEC4DF7F8qbMGvbPPbXBjWGMUqBIphoWO8zBzE+1bmQgMpZ8X4XuN4jDyFBEAABEAA7g8giRkDwAPhE9PNzNx/jFmWh5u4c2aO7WdWm0Izhvfv7JBC5SrAVrH9qwGVB6ZYmjqnDTRa8Y2IXwEGAI1dAiVnUcUMAAAAAElFTkSuQmCC";
 var index_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$c = {
   name: "VFormDesigner",
@@ -56816,7 +56815,7 @@ const _sfc_main$c = {
       default: () => {
         return {
           languageMenu: true,
-          externalLink: true,
+          externalLink: false,
           formTemplates: true,
           eventCollapse: true,
           widgetNameReadonly: false,
@@ -56942,7 +56941,7 @@ const _sfc_main$c = {
         return;
       }
       let headers = this.fieldListApi.headers || {};
-      axios.get(this.fieldListApi.URL, { "headers": headers }).then((res) => {
+      axios.get(this.fieldListApi.URL, { headers }).then((res) => {
         let labelKey = this.fieldListApi.labelKey || "label";
         let nameKey = this.fieldListApi.nameKey || "name";
         this.fieldList.splice(0, this.fieldList.length);
@@ -57030,10 +57029,9 @@ const _sfc_main$c = {
     }
   }
 };
-const _hoisted_1$b = { class: "float-left main-title" };
-const _hoisted_2$a = { class: "version-span" };
-const _hoisted_3$9 = { class: "float-right external-link" };
-const _hoisted_4$2 = { class: "el-dropdown-link" };
+const _hoisted_1$b = { class: "version-span" };
+const _hoisted_2$a = { class: "float-right external-link" };
+const _hoisted_3$9 = { class: "el-dropdown-link" };
 function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
   const _component_el_dropdown_item = resolveComponent("el-dropdown-item");
@@ -57052,16 +57050,15 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
     default: withCtx(() => [
       createVNode(_component_el_header, { class: "main-header" }, {
         default: withCtx(() => [
-          createElementVNode("div", _hoisted_1$b, [
-            createElementVNode("img", {
-              src: _imports_0,
-              onClick: _cache[0] || (_cache[0] = (...args) => $options.openHome && $options.openHome(...args))
-            }),
-            _cache[5] || (_cache[5] = createElementVNode("span", { class: "bold" }, "VForm 3", -1)),
+          createElementVNode("div", {
+            class: "float-left main-title",
+            onClick: _cache[0] || (_cache[0] = (...args) => $options.openHome && $options.openHome(...args))
+          }, [
+            _cache[1] || (_cache[1] = createElementVNode("span", { class: "bold" }, "FormDesigner", -1)),
             createTextVNode(" " + toDisplayString(_ctx.i18nt("application.productTitle")) + " ", 1),
-            createElementVNode("span", _hoisted_2$a, "Ver " + toDisplayString($data.vFormVersion), 1)
+            createElementVNode("span", _hoisted_1$b, "Ver " + toDisplayString($data.vFormVersion), 1)
           ]),
-          createElementVNode("div", _hoisted_3$9, [
+          createElementVNode("div", _hoisted_2$a, [
             $options.showLink("languageMenu") ? (openBlock(), createBlock(_component_el_dropdown, {
               key: 0,
               "hide-timeout": 2e3,
@@ -57087,46 +57084,13 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
                 })
               ]),
               default: withCtx(() => [
-                createElementVNode("span", _hoisted_4$2, [
+                createElementVNode("span", _hoisted_3$9, [
                   createTextVNode(toDisplayString($data.curLangName), 1),
                   createVNode(_component_svg_icon, { "icon-class": "el-arrow-down" })
                 ])
               ]),
               _: 1
-            }, 8, ["onCommand"])) : createCommentVNode("", true),
-            $options.showLink("externalLink") ? (openBlock(), createElementBlock("a", {
-              key: 1,
-              href: "javascript:void(0)",
-              onClick: _cache[1] || (_cache[1] = (ev) => $options.openUrl(ev, $data.gitUrl)),
-              target: "_blank"
-            }, [
-              createVNode(_component_svg_icon, { "icon-class": "github" }),
-              createTextVNode(toDisplayString(_ctx.i18nt("application.github")), 1)
-            ])) : createCommentVNode("", true),
-            $options.showLink("externalLink") ? (openBlock(), createElementBlock("a", {
-              key: 2,
-              href: "javascript:void(0)",
-              onClick: _cache[2] || (_cache[2] = (ev) => $options.openUrl(ev, $data.docUrl)),
-              target: "_blank"
-            }, [
-              createVNode(_component_svg_icon, { "icon-class": "document" }),
-              createTextVNode(toDisplayString(_ctx.i18nt("application.document")), 1)
-            ])) : createCommentVNode("", true),
-            $options.showLink("externalLink") ? (openBlock(), createElementBlock("a", {
-              key: 3,
-              href: "javascript:void(0)",
-              onClick: _cache[3] || (_cache[3] = (ev) => $options.openUrl(ev, $data.chatUrl)),
-              target: "_blank"
-            }, toDisplayString(_ctx.i18nt("application.qqGroup")), 1)) : createCommentVNode("", true),
-            $options.showLink("externalLink") ? (openBlock(), createElementBlock("a", {
-              key: 4,
-              href: "javascript:void(0)",
-              onClick: _cache[4] || (_cache[4] = (ev) => $options.openUrl(ev, $data.subScribeUrl)),
-              target: "_blank"
-            }, [
-              createTextVNode(toDisplayString(_ctx.i18nt("application.subscription")), 1),
-              _cache[6] || (_cache[6] = createElementVNode("i", { class: "el-icon-top-right" }, null, -1))
-            ])) : createCommentVNode("", true)
+            }, 8, ["onCommand"])) : createCommentVNode("", true)
           ])
         ]),
         _: 1
@@ -57201,7 +57165,7 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
     _: 3
   });
 }
-var VFormDesigner = /* @__PURE__ */ _export_sfc$1(_sfc_main$c, [["render", _sfc_render$c], ["__scopeId", "data-v-0a5259e4"]]);
+var VFormDesigner = /* @__PURE__ */ _export_sfc$1(_sfc_main$c, [["render", _sfc_render$c], ["__scopeId", "data-v-65e8093a"]]);
 var vuedraggable_umd = { exports: {} };
 /**!
  * Sortable 1.14.0
@@ -63125,13 +63089,13 @@ function registerIcon(app) {
 if (typeof window !== "undefined") {
   let loadSvg = function() {
     var body = document.body;
-    var svgDom = document.getElementById("__svg__icons__dom__1755588535194__");
+    var svgDom = document.getElementById("__svg__icons__dom__1755594845924__");
     if (!svgDom) {
       svgDom = document.createElementNS("http://www.w3.org/2000/svg", "svg");
       svgDom.style.position = "absolute";
       svgDom.style.width = "0";
       svgDom.style.height = "0";
-      svgDom.id = "__svg__icons__dom__1755588535194__";
+      svgDom.id = "__svg__icons__dom__1755594845924__";
       svgDom.setAttribute("xmlns", "http://www.w3.org/2000/svg");
       svgDom.setAttribute("xmlns:link", "http://www.w3.org/1999/xlink");
     }
