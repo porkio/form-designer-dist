@@ -1799,7 +1799,7 @@ const advancedFields = [
       requiredHint: "",
       customRule: "",
       customRuleHint: "",
-      uploadURL: "",
+      uploadURL: "http://cqcet-api.kjbvip.com/index/ajax/upload",
       uploadTip: "",
       withCredentials: false,
       multipleSelect: false,
@@ -1837,7 +1837,7 @@ const advancedFields = [
       requiredHint: "",
       customRule: "",
       customRuleHint: "",
-      uploadURL: "",
+      uploadURL: "http://cqcet-api.kjbvip.com/index/ajax/upload",
       uploadTip: "",
       withCredentials: false,
       multipleSelect: false,
@@ -6778,11 +6778,15 @@ const _sfc_main$3b = {
     this.unregisterFromRefList();
   },
   methods: {
+    handleOnPictureChange(file, fileList) {
+      console.log("file change", file, fileList);
+    },
     handlePictureExceed() {
       let uploadLimit = this.field.options.limit;
       this.$message.warning(this.i18nt("render.hint.uploadExceed").replace("${uploadLimit}", uploadLimit));
     },
     beforePictureUpload(file) {
+      console.log("beforePictureUpload", file);
       let fileTypeCheckResult = false;
       if (!!this.field.options && !!this.field.options.fileTypes) {
         let uploadFileTypes = this.field.options.fileTypes;
@@ -6941,6 +6945,7 @@ function _sfc_render$3b(_ctx, _cache, $props, $setup, $data, $options) {
         "list-type": "picture-card",
         class: normalizeClass({ "hideUploadDiv": $data.uploadBtnHidden }),
         limit: $props.field.options.limit,
+        "on-change": $options.handleOnPictureChange,
         "on-exceed": $options.handlePictureExceed,
         "before-upload": $options.beforePictureUpload,
         "on-preview": $options.handlePictureCardPreview,
@@ -6989,12 +6994,12 @@ function _sfc_render$3b(_ctx, _cache, $props, $setup, $data, $options) {
           ])
         ]),
         _: 1
-      }, 8, ["disabled", "action", "headers", "data", "with-credentials", "multiple", "file-list", "show-file-list", "class", "limit", "on-exceed", "before-upload", "on-preview", "on-success", "on-error"])
+      }, 8, ["disabled", "action", "headers", "data", "with-credentials", "multiple", "file-list", "show-file-list", "class", "limit", "on-change", "on-exceed", "before-upload", "on-preview", "on-success", "on-error"])
     ]),
     _: 1
   }, 8, ["designer", "field", "rules", "design-state", "parent-widget", "parent-list", "index-of-parent-list", "sub-form-row-index", "sub-form-col-index", "sub-form-row-id"]);
 }
-var pictureUploadWidget = /* @__PURE__ */ _export_sfc$1(_sfc_main$3b, [["render", _sfc_render$3b], ["__scopeId", "data-v-7b6d52ff"]]);
+var pictureUploadWidget = /* @__PURE__ */ _export_sfc$1(_sfc_main$3b, [["render", _sfc_render$3b], ["__scopeId", "data-v-85481086"]]);
 var __glob_0_12$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": pictureUploadWidget
@@ -45536,7 +45541,7 @@ var extLanguage_tools = { exports: {} };
     });
   })();
 })(extLanguage_tools);
-const VARIANT_FORM_VERSION = "1.0.15";
+const VARIANT_FORM_VERSION = "1.0.16";
 const MOCK_CASE_URL = "https://ks3-cn-beijing.ksyuncs.com/vform-static/vcase/";
 const ACE_BASE_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/ace-mini";
 const BEAUTIFIER_PATH = "https://ks3-cn-beijing.ksyun.com/vform2021/js-beautify/1.14.0/beautifier.min.js";
@@ -64009,13 +64014,13 @@ function registerIcon(app) {
 if (typeof window !== "undefined") {
   let loadSvg = function() {
     var body = document.body;
-    var svgDom = document.getElementById("__svg__icons__dom__1755831401411__");
+    var svgDom = document.getElementById("__svg__icons__dom__1755855881882__");
     if (!svgDom) {
       svgDom = document.createElementNS("http://www.w3.org/2000/svg", "svg");
       svgDom.style.position = "absolute";
       svgDom.style.width = "0";
       svgDom.style.height = "0";
-      svgDom.id = "__svg__icons__dom__1755831401411__";
+      svgDom.id = "__svg__icons__dom__1755855881882__";
       svgDom.setAttribute("xmlns", "http://www.w3.org/2000/svg");
       svgDom.setAttribute("xmlns:link", "http://www.w3.org/1999/xlink");
     }
